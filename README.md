@@ -9,24 +9,7 @@
 [![Calibration](https://img.shields.io/badge/Confidence%20Calibration-100%25-success.svg)]()
 [![Safety](https://img.shields.io/badge/Safety%20Compliance-100%25-brightgreen.svg)]()
 
----
 
-## 📖 Table of Contents
-1. [What is EcoOps 2.0?](#-what-is-ecoops-20)
-2. [Technology Stack](#-technology-stack)
-3. [Key Implementation Highlights](#-key-implementation-highlights)
-4. [The Critical Facilities Dilemma](#-the-critical-facilities-dilemma)
-5. [Key Architectural Pillars](#-key-architectural-pillars)
-6. [Multi-Factor Confidence Scoring (0–1 Scale)](#-multi-factor-confidence-scoring-01-scale)
-7. [Three Core Safety Demonstration Scenarios](#-three-core-safety-demonstration-scenarios)
-8. [Benchmark Evaluation (20 Scenarios)](#-benchmark-evaluation-20-scenarios)
-9. [System Requirements & Installation](#-system-requirements--installation)
-10. [How to Run the Project (Step-by-Step)](#-how-to-run-the-project-step-by-step)
-11. [API Endpoints & Integration](#-api-endpoints--integration)
-12. [Hackathon Evaluation Rubric (100/100)](#-hackathon-evaluation-rubric-100100)
-13. [Project Directory Layout](#-project-directory-layout)
-
----
 
 ## 💻 Technology Stack
 
