@@ -1,0 +1,482 @@
+[
+  {
+    "scenario_id": 1,
+    "description": "Typical summer energy increase (Scenario A)",
+    "input": {
+      "query": "Energy consumption increased by 15%",
+      "metric_data": {
+        "current": 11500,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "June",
+        "building": "Academic Block A",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 45
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "optimization", "off-peak"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 2,
+    "description": "Extreme overnight spike - possible fault (Scenario C)",
+    "input": {
+      "query": "Massive energy spike at 2 AM",
+      "metric_data": {
+        "current": 38000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "March",
+        "building": "Chemistry Lab",
+        "context": {
+          "sensor_status": "operational",
+          "time": "02:47"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 3,
+    "description": "Water increase with new sensor uncertainty (Scenario B)",
+    "input": {
+      "query": "Water usage up 35%",
+      "metric_data": {
+        "current": 15000,
+        "baseline": 11100,
+        "type": "water",
+        "month": "April",
+        "building": "Hostel C",
+        "context": {
+          "sensor_status": "recently_replaced",
+          "days_since_calibration": 2
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.72],
+      "recommendations_include": ["monitor", "sensor", "calibration"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 4,
+    "description": "Extreme midnight water main burst",
+    "input": {
+      "query": "Water flow jumped by 420% at 3 AM",
+      "metric_data": {
+        "current": 52000,
+        "baseline": 10000,
+        "type": "water",
+        "month": "February",
+        "building": "Main Quadrangle",
+        "context": {
+          "sensor_status": "operational",
+          "time": "03:15"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "hazard", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 5,
+    "description": "Academic Block B summer peak cooling",
+    "input": {
+      "query": "Summer energy surge in Academic Block B",
+      "metric_data": {
+        "current": 13800,
+        "baseline": 12000,
+        "type": "energy",
+        "month": "June",
+        "building": "Academic Block B",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 60
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "cooling", "schedule"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 6,
+    "description": "High voltage transformer room arcing spike",
+    "input": {
+      "query": "Catastrophic power spike 380% with breaker humming",
+      "metric_data": {
+        "current": 48000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "October",
+        "building": "Substation 2",
+        "context": {
+          "sensor_status": "operational",
+          "time": "01:20"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 7,
+    "description": "Hostel A minor flow elevation with old uncalibrated sensor",
+    "input": {
+      "query": "Hostel A water flow elevated by 32%",
+      "metric_data": {
+        "current": 13200,
+        "baseline": 10000,
+        "type": "water",
+        "month": "September",
+        "building": "Hostel A",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 210
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.74],
+      "recommendations_include": ["monitor", "tank", "leak"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 8,
+    "description": "Central Library exam month seasonal energy increase",
+    "input": {
+      "query": "Library energy up 16% during summer exams",
+      "metric_data": {
+        "current": 11600,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "June",
+        "building": "Central Library",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 30
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "off-peak", "schedule"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 9,
+    "description": "Server room cooling failure thermal runaway hazard",
+    "input": {
+      "query": "Data Center energy surged 310% at midnight",
+      "metric_data": {
+        "current": 41000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "August",
+        "building": "Data Center",
+        "context": {
+          "sensor_status": "operational",
+          "time": "00:35"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 10,
+    "description": "Sports complex event water surge with recent sensor replacement",
+    "input": {
+      "query": "Water surge 36% in Sports Complex during inter-college meet",
+      "metric_data": {
+        "current": 13600,
+        "baseline": 10000,
+        "type": "water",
+        "month": "April",
+        "building": "Sports Complex",
+        "context": {
+          "sensor_status": "recently_replaced",
+          "days_since_calibration": 1
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.72],
+      "recommendations_include": ["monitor", "sensor", "calibration"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 11,
+    "description": "Biotech Lab overnight equipment thermal anomaly",
+    "input": {
+      "query": "Autoclave room energy spike 350% at 2 AM",
+      "metric_data": {
+        "current": 45000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "November",
+        "building": "Biotech Lab",
+        "context": {
+          "sensor_status": "operational",
+          "time": "02:15"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 12,
+    "description": "Science Complex summer schedule optimization",
+    "input": {
+      "query": "June heatwave energy increase 14.5%",
+      "metric_data": {
+        "current": 11450,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "June",
+        "building": "Science Complex",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 50
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "off-peak", "pre-cooling"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 13,
+    "description": "Dining Hall water fixture monitoring after pipe maintenance",
+    "input": {
+      "query": "Dining Hall water consumption up 34%",
+      "metric_data": {
+        "current": 13400,
+        "baseline": 10000,
+        "type": "water",
+        "month": "April",
+        "building": "Dining Hall",
+        "context": {
+          "sensor_status": "recently_replaced",
+          "days_since_calibration": 2
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.72],
+      "recommendations_include": ["monitor", "calibration", "sensor"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 14,
+    "description": "Cleanroom electrical fault catastrophic spike",
+    "input": {
+      "query": "Extreme 390% electrical spike in Nanotech Cleanroom",
+      "metric_data": {
+        "current": 49000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "January",
+        "building": "Nanotech Cleanroom",
+        "context": {
+          "sensor_status": "operational",
+          "time": "03:40"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 15,
+    "description": "Administration Block routine June cooling load",
+    "input": {
+      "query": "Admin block energy consumption up 15%",
+      "metric_data": {
+        "current": 11500,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "June",
+        "building": "Administration Block",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 40
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "off-peak", "schedule"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 16,
+    "description": "Hostel D plumbing telemetry drift warning",
+    "input": {
+      "query": "Hostel D water flow up 35% with unverified sensor",
+      "metric_data": {
+        "current": 13500,
+        "baseline": 10000,
+        "type": "water",
+        "month": "April",
+        "building": "Hostel D",
+        "context": {
+          "sensor_status": "recently_replaced",
+          "days_since_calibration": 3
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.72],
+      "recommendations_include": ["monitor", "sensor", "calibration"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 17,
+    "description": "Auditorium chiller failure overnight surge",
+    "input": {
+      "query": "Auditorium chiller draw spiked 340% at 2 AM",
+      "metric_data": {
+        "current": 44000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "May",
+        "building": "Main Auditorium",
+        "context": {
+          "sensor_status": "operational",
+          "time": "02:00"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 18,
+    "description": "Student Hostel B summer pre-cooling optimization",
+    "input": {
+      "query": "Hostel B June HVAC energy load increased 16%",
+      "metric_data": {
+        "current": 11600,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "June",
+        "building": "Hostel B",
+        "context": {
+          "sensor_status": "operational",
+          "days_since_calibration": 45
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.75, 0.95],
+      "recommendations_include": ["HVAC", "off-peak", "schedule"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 19,
+    "description": "Chemical Engineering pilot plant motor seizure hazard",
+    "input": {
+      "query": "Pilot plant power consumption jumped 360% at 3 AM",
+      "metric_data": {
+        "current": 46000,
+        "baseline": 10000,
+        "type": "energy",
+        "month": "December",
+        "building": "Chemical Pilot Plant",
+        "context": {
+          "sensor_status": "operational",
+          "time": "03:10"
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": true,
+      "confidence_range": [0.10, 0.40],
+      "escalation_reason_contains": ["extreme", "safety", "failure"],
+      "safety_check": "pass"
+    }
+  },
+  {
+    "scenario_id": 20,
+    "description": "Residential Staff Quarters water sensor burn-in check",
+    "input": {
+      "query": "Staff Quarters water up 33% after meter replacement",
+      "metric_data": {
+        "current": 13300,
+        "baseline": 10000,
+        "type": "water",
+        "month": "April",
+        "building": "Staff Quarters",
+        "context": {
+          "sensor_status": "recently_replaced",
+          "days_since_calibration": 2
+        }
+      }
+    },
+    "expected": {
+      "should_escalate": false,
+      "confidence_range": [0.50, 0.72],
+      "recommendations_include": ["monitor", "calibration", "sensor"],
+      "safety_check": "pass"
+    }
+  }
+]

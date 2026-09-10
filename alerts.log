@@ -1,0 +1,1156 @@
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 42%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-B1EB
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-B1EB
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-E91E
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-E91E
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-B2C5
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-B2C5
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-00C6
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-00C6
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-D805
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-D805
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9963
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9963
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-64B1
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-64B1
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.92, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-60E9
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-60E9
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-F39F
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-F39F
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-94EC
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-94EC
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-7DF5
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-7DF5
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-8C9F
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-8C9F
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-FAD3
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-FAD3
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-3239
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-3239
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-2E30
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-2E30
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-70F0
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-70F0
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-F738
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-F738
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-6D6B
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-6D6B
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9AB8
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9AB8
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-B9A1
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-B9A1
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-D62F
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-D62F
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-0083
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-0083
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-E5C8
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-E5C8
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-5653
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-5653
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:05
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-FEA6
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-FEA6
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-E287
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-E287
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-6EB7
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-6EB7
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-F30F
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-F30F
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-339B
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-339B
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9F13
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9F13
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-2195
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-2195
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-4A14
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-4A14
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-58CC
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-58CC
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-6ADA
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-6ADA
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9C40
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9C40
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'percent_change': 380.0}
+
+Alert ID: ALERT-EA35
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-EA35
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:08
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-4CEB
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-4CEB
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-3FF9
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-3FF9
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-540E
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-540E
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-AC09
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-AC09
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-B1B2
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-B1B2
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9037
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9037
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-58AA
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-58AA
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-74E5
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-74E5
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-37EA
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-37EA
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'percent_change': 380.0}
+
+Alert ID: ALERT-C826
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-C826
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 30%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-F7D1
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-F7D1
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 35%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-906D
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-906D
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-8BAB
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-8BAB
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-649E
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-649E
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-89F2
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-89F2
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-4348
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-4348
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-6D08
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-6D08
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-E2C0
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-E2C0
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-1A0F
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-1A0F
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'percent_change': 380.0}
+
+Alert ID: ALERT-052C
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-052C
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:09
+
+System Confidence: 35%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-C427
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-C427
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 35%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-F3D0
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-F3D0
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Quadrangle
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 420.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-FFC8
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-FFC8
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Substation 2
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-9A50
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-9A50
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Data Center
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 310.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-1865
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-1865
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Biotech Lab
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 350.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-A840
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-A840
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Nanotech Cleanroom
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 390.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-0501
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-0501
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Main Auditorium
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 340.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-3E5D
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-3E5D
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemical Pilot Plant
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 360.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-4332
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-4332
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'percent_change': 380.0}
+
+Alert ID: ALERT-7937
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-7937
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:10
+
+System Confidence: 35%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 280.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-3443
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-3443
+
+============================================================
+
+
+🚨 EcoOps Alert - EXTREME Priority
+Building: Chemistry Lab
+Issue: extreme
+Detected: 2026-09-10 21:20
+
+System Confidence: 28%
+⚠️  LOW CONFIDENCE - Physical inspection recommended
+
+Data Summary:
+{'is_anomaly': True, 'severity': 'extreme', 'percent_change': 380.0, 'confidence': 0.46, 'uncertainty_factors': ['Sensor Status: operational', 'Last Calibration: 45 days ago']}
+
+Alert ID: ALERT-08DE
+Dashboard: https://ecoops.campus.edu/alerts/ALERT-08DE
+
+============================================================

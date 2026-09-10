@@ -1,0 +1,21 @@
+id,metric,month,percent_change,building_type,intervention_successful,action_taken,date,resolution_notes
+1,energy,June,15.2,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2023-06-12,Reduced monthly peak charge by 12%
+2,energy,June,14.8,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2023-06-25,Set temperature deadband to 25C
+3,energy,June,16.1,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2022-06-08,Pre-cooling strategy successful
+4,energy,June,13.9,Academic,1,AHU fan speed modulation,2022-06-19,VSD throttling during midday hours
+5,energy,June,15.5,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2021-06-14,Smooth summer load profile achieved
+6,energy,June,16.8,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2021-06-27,Saved 1150 kWh
+7,energy,June,14.2,Academic,0,Manual thermostat adjustment,2020-06-10,Occupant complaints regarding humidity
+8,energy,June,15.0,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2020-06-22,Chiller staging updated
+9,energy,June,15.9,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2019-06-05,Reduced energy costs by Rs 4600
+10,energy,June,14.5,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2019-06-18,Thermal comfort maintained
+11,energy,June,16.4,Academic,1,Shift cooling to off-peak hours (10 PM - 6 AM),2018-06-11,Off-peak cooling load shift effective
+12,energy,June,13.7,Academic,0,Compressor cycling delay,2018-06-24,Inadequate cooling during 3 PM peak
+13,water,April,34.2,Residential,1,Re-calibrate ultrasonic sensor & check cistern,2023-04-18,Sensor drift accounted for 18% of surge
+14,water,April,36.5,Residential,0,Isolated secondary supply valve,2022-04-12,Resulted in low pressure across Hostel C
+15,energy,May,18.5,Academic,1,Chiller scheduling adjustment,2023-05-15,Normal seasonal increase
+16,energy,July,22.0,Library,1,Optimize lighting & cooling zones,2023-07-10,High library footfall during exams
+17,water,September,28.0,Dining,1,Repair kitchen commercial grease trap sensor,2023-09-04,Flow returned to normal
+18,waste,October,45.0,CampusWide,1,Increase compost collection cycle,2023-10-20,Festival decoration waste surge
+19,energy,January,-12.0,Academic,1,Winter setback schedule,2024-01-15,Winter vacation savings
+20,water,November,12.0,Residential,1,Minor flush valve gasket replacement,2023-11-08,Quick maintenance fix
