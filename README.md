@@ -13,16 +13,71 @@
 
 ## 📖 Table of Contents
 1. [What is EcoOps 2.0?](#-what-is-ecoops-20)
-2. [The Critical Facilities Dilemma](#-the-critical-facilities-dilemma)
-3. [Key Architectural Pillars](#-key-architectural-pillars)
-4. [Multi-Factor Confidence Scoring (0–1 Scale)](#-multi-factor-confidence-scoring-01-scale)
-5. [Three Core Safety Demonstration Scenarios](#-three-core-safety-demonstration-scenarios)
-6. [Benchmark Evaluation (20 Scenarios)](#-benchmark-evaluation-20-scenarios)
-7. [System Requirements & Installation](#-system-requirements--installation)
-8. [How to Run the Project (Step-by-Step)](#-how-to-run-the-project-step-by-step)
-9. [API Endpoints & Integration](#-api-endpoints--integration)
-10. [Hackathon Evaluation Rubric (100/100)](#-hackathon-evaluation-rubric-100100)
-11. [Project Directory Layout](#-project-directory-layout)
+2. [Technology Stack](#-technology-stack)
+3. [Key Implementation Highlights](#-key-implementation-highlights)
+4. [The Critical Facilities Dilemma](#-the-critical-facilities-dilemma)
+5. [Key Architectural Pillars](#-key-architectural-pillars)
+6. [Multi-Factor Confidence Scoring (0–1 Scale)](#-multi-factor-confidence-scoring-01-scale)
+7. [Three Core Safety Demonstration Scenarios](#-three-core-safety-demonstration-scenarios)
+8. [Benchmark Evaluation (20 Scenarios)](#-benchmark-evaluation-20-scenarios)
+9. [System Requirements & Installation](#-system-requirements--installation)
+10. [How to Run the Project (Step-by-Step)](#-how-to-run-the-project-step-by-step)
+11. [API Endpoints & Integration](#-api-endpoints--integration)
+12. [Hackathon Evaluation Rubric (100/100)](#-hackathon-evaluation-rubric-100100)
+13. [Project Directory Layout](#-project-directory-layout)
+
+---
+
+## 💻 Technology Stack
+
+EcoOps 2.0 is engineered with a modern, high-performance tech stack:
+
+| Layer / Component | Technology | Role & Responsibility in EcoOps 2.0 |
+|:---|:---|:---|
+| **Multi-Agent Orchestration** | **LangGraph** (`StateGraph`) | 6-Node typed state machine with conditional routing edges, circular-safe execution, and step-by-step execution trace logs. |
+| **Tool Execution Layer** | **FastMCP** (Model Context Protocol) | Standardized `@mcp.tool()` interface exposing 5 specialized tools for anomaly detection, RAG retrieval, carbon modeling, alerts, and historical matching. |
+| **Backend Web Framework** | **FastAPI** | High-performance asynchronous REST API handling scenario analysis, alerts management, CSV batch processing, and OpenAPI/Swagger documentation. |
+| **ASGI Web Server** | **Uvicorn** | Lightning-fast ASGI production web server serving the FastAPI backend and frontend static assets. |
+| **LLM Reasoning & Generation** | **Google Gemini Flash** (`google-generativeai`) | Generates structured, domain-grounded recommendations with carbon and cost impact; features deterministic fallback for 100% offline resilience. |
+| **RAG Knowledge Base & Search** | **Vectorized Semantic Search** | Cosine similarity & TF-IDF term weighting with contextual domain boosting across campus sustainability policies, calibration protocols, and emergency guidelines. |
+| **Data Analytics & Precedents** | **Pandas & NumPy** | Queries and filters historical anomaly archives within $\pm 10\%$ similarity deltas and calculates intervention success rates. |
+| **Frontend Web Dashboard** | **HTML5 / CSS3 / JavaScript (ES6+)** | Responsive dark-mode operations UI featuring animated radial SVG certainty gauges, multi-factor progress meters, live node execution visualizers, and facilities alert queues. |
+| **Testing & Evaluation** | **Python `unittest` & Custom Benchmark Runner** | Comprehensive 16-test unit suite and 20-scenario benchmark suite validating 100% escalation accuracy and calibrated confidence scoring. |
+
+---
+
+## ⚙️ Key Implementation Highlights
+
+### 1. LangGraph 6-Node State Machine with Conditional Routing (`agent/orchestrator.py`)
+- **State Schema (`EcoOpsState`)**: Tracks telemetry inputs, intermediate node outputs, 4-factor confidence metrics, recommended actions, and execution trace logs.
+- **Dynamic Conditional Routing**:
+  - `conf >= 0.75` ➔ Directs to `auto_act` (Automated HVAC schedule optimization).
+  - `0.50 <= conf < 0.75` ➔ Directs to `warn` (Warn & Monitor advisory).
+  - `conf < 0.50` or `severity == "extreme"` ➔ Directs to `escalate` (Node 6: Facilities emergency ticket dispatch).
+
+### 2. The 5 FastMCP Tools (`tools/mcp_tools.py`)
+- **`detect_anomaly`**: Evaluates percentage change, assigns severity (`normal`, `moderate`, `high`, `extreme`), and applies sensor uncertainty penalties (e.g. $0.70\times$ for newly replaced sensors within 72-hour burn-in; $0.65\times$ for calibration age > 180 days; $0.50\times$ for extreme outliers).
+- **`retrieve_policies`**: Vectorized RAG tool searching the campus knowledge base with calibrated similarity scoring across operational, event, and emergency protocols.
+- **`calculate_emissions_impact`**: Environmental impact calculator utilizing IEA 2024 grid factors ($0.72\text{ kg CO}_2/\text{kWh}$, $0.0003\text{ kg CO}_2/\text{L}$ water) and commercial tariffs to project monthly cost and carbon savings.
+- **`alert_facilities_team`**: Generates unique emergency tickets (`ALERT-XXXX`), assigns 15-minute response SLAs, and writes to `alerts.log`.
+- **`find_historical_precedent`**: Queries the historical precedent database across matching metrics and months within $\pm 10\%$ deviation, calculating sample size and intervention success rates.
+
+### 3. Multi-Factor Confidence Scoring Algorithm (`agent/orchestrator.py`)
+Computes an objective certainty score on a 0–1 scale using a weighted combination:
+$$\text{Overall Confidence} = 0.25 \cdot \text{DataQuality} + 0.25 \cdot \text{RAGGrounding} + 0.30 \cdot \text{HistoricalPrecedent} + 0.20 \cdot \text{SeverityAdjustment}$$
+
+### 4. Safety Circuit Breaker: Knowing When NOT to Optimize
+When an extreme anomaly (>200% surge) or severe uncertainty ($<0.50$) is detected:
+- Autonomous actuation is **strictly suspended** to prevent exacerbating electrical arc faults or physical hazards.
+- The system automatically triggers `alert_facilities_team`, generates a tracked incident ticket, and alerts on-site personnel.
+
+### 5. Interactive Operations Dashboard (`static/`)
+- **Radial SVG Certainty Gauge**: Dynamically calculates stroke dash-offsets and shifts color palettes (Emerald Green $\ge 75\%$, Amber Yellow $50–74\%$, Critical Rose Red $< 50\%$).
+- **Live LangGraph Pipeline Animator**: Sequentially highlights nodes as execution progresses through the state machine.
+- **Facilities Escalation Queue**: Allows facility engineers to review open alerts and mark them as acknowledged/dispatched.
+- **Batch CSV Upload & Evaluation Bench**: Ingests multi-building anomaly files and runs the 20-scenario benchmark with real-time UI counters.
+
+---
 
 ---
 
