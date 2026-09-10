@@ -340,6 +340,3 @@ EcoOps-2.0/
 
 ---
 
-## 👥 Contributors & License
-- **Author**: Sri Lakshmi Machipeddi
-- **License**: MIT License
